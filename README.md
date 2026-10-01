@@ -28,7 +28,7 @@ Academic poster project that predicts the daily share price of **Barclays (LSE: 
 
 ## What I'd do differently
 
-This was an early project, and looking back the near-perfect fit has a clear cause. The model used **same-day** High, Low, Open and Adjusted Close prices to predict that day's Close, and those values are only known once the day is over. A version that would actually help an investor should:
+This was an early project, and looking back the near-perfect fit has a clear cause. The model used **same-day** High, Low and Adjusted Close prices to predict that day's Close. Those values are only known once the day is over, and Adjusted Close is essentially the Close itself. A version that would actually help an investor should:
 
 - predict **tomorrow's** close (or return) using only **lagged** features available today,
 - use a strictly **time-ordered** train/test split,
