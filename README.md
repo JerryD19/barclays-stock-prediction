@@ -2,6 +2,8 @@
 
 Academic poster project that predicts the daily share price of **Barclays (LSE: BARC)** from January 2020 to April 2024, comparing **Linear Regression** with **Random Forest Regression**.
 
+**Business impact:** shows how to stop a misleading model from reaching an investment decision. Random Forest beat Linear Regression on both MAE and RMSE, but I traced the near-perfect fit to same-day inputs and set out the changes a decision-ready version needs: lagged features, a time-ordered split and a naive baseline.
+
 **Tools:** Python · pandas · scikit-learn · Matplotlib · Yahoo Finance data
 
 ![Poster preview](images/poster_preview.png)
