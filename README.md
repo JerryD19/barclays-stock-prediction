@@ -38,3 +38,7 @@ This was an early project, and looking back the near-perfect fit has a clear cau
 ---
 
 *Poster produced for the Studying at Masters Level module of my MSc Big Data Analytics, University of Derby, 2024.*
+
+---
+
+More of my work: [github.com/JerryD19](https://github.com/JerryD19)
